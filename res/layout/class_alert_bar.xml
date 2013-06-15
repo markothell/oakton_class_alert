@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/alertBarLinearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/silver_list_bar"
+        android:descendantFocusability="blocksDescendants"
+        android:paddingLeft="10dp" 
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp">
+
+        <FrameLayout
+            android:layout_width="wrap_content"
+    		android:layout_height="wrap_content"
+    		android:id="@+id/statusFrameLayout"
+    		android:paddingRight="4dp">
+
+    		<TextView
+    		    android:id="@+id/studentNumTextView"
+    		    android:layout_width="match_parent"
+    			android:layout_height="wrap_content"
+    		    />
+    		<TextView 
+    		    android:id="@+id/classCapTextView"
+    		    android:layout_width="wrap_content"
+    			android:layout_height="wrap_content"
+    			android:layout_gravity="bottom|right"
+    			android:textSize="35sp"
+    		    />
+      		
+        </FrameLayout>
+        <LinearLayout
+            android:id="@+id/classTextLinearLayout"
+            android:layout_width="wrap_content"
+    		android:layout_height="wrap_content"
+    		android:orientation="vertical"
+    		android:paddingLeft="7dp">
+           
+    		<TextView 
+    		    android:id="@+id/courseNameTextView"
+    			android:layout_width="wrap_content"
+    			android:layout_height="wrap_content"
+    			android:textSize="18sp"
+    			android:paddingLeft="5dp"/>
+    		<LinearLayout 
+    		    android:id="@+id/classTextLine2LinearLayout"
+    		    android:layout_width="wrap_content"
+    			android:layout_height="wrap_content"
+    			android:layout_marginLeft="-2dp">
+    		    
+    		    <TextView 
+    		    android:id="@+id/courseIdTextView"
+    			android:layout_width="wrap_content"
+    			android:layout_height="wrap_content"
+    			style="@style/classText"/>
+    			<TextView 
+    			android:id="@+id/crnTextView"
+    			android:layout_width="wrap_content"
+    			android:layout_height="wrap_content"
+    			style="@style/classText"/>
+    			<TextView 
+    			android:id="@+id/campusTextView"
+    			android:layout_width="wrap_content"
+    			android:layout_height="wrap_content"
+    			style="@style/classText"/>
+    			<TextView 
+    			android:id="@+id/termTextView"
+    			android:layout_width="wrap_content"
+    			android:layout_height="wrap_content"
+    			style="@style/classText"/>
+    			
+    		    
+    		</LinearLayout>
+    		
+    		<LinearLayout 
+    		    android:id="@+id/classTextLine3LinearLayout"
+    		    android:layout_width="wrap_content"
+    			android:layout_height="wrap_content"
+    			android:layout_marginLeft="-2dp">
+    		    
+    		    <TextView 
+    		        android:id="@+id/dayTextView"
+    			android:layout_width="wrap_content"
+    			android:layout_height="wrap_content"
+    			style="@style/classText"/>  			
+    			<TextView 
+    			    android:id="@+id/timeTextView"
+    			android:layout_width="wrap_content"
+    			android:layout_height="wrap_content"
+    			style="@style/classText"/>
+    			    		    
+    		</LinearLayout>    
+        </LinearLayout>
+        <!-- end classText -->
+	</LinearLayout>
+	<!-- end class status bar1 -->

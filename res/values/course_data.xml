@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="crn20469">
+    	    <item name="studentNum">11</item>
+    	    <item name="classCap">12</item>
+        	<item name="courseName">Principles of Financial Accounting</item>
+        	<item name="courseId">ACC 153 1E1</item> 
+        	<item name="crn">20469</item>
+        	<item name="campus">Des Plaines</item>
+        	<item name="days">MTWR</item>
+        	<item name="time">8:30 am - 12:10 pm</item>
+	 </string-array>
+	<string-array name="crn20091">
+	 	    <item>13</item>
+    	    <item>12</item>
+	     	<item>Beginning French I</item>
+	     	<item>FRE 101 8C1</item>
+	     	<item>20091</item>
+	     	<item>Off Campus</item>
+	     	<item>N/A</item>
+	     	<item>N/A</item>
+	 </string-array>
+	 <string-array name="crn20431">
+	 	    <item>5</item>
+    	    <item>12</item>
+	     	<item>Effective Speech</item>
+	     	<item>SPE 103 1E2</item>
+	     	<item>20431</item>
+	     	<item>Des Plaines</item>
+	     	<item>MTWR</item>
+	     	<item>9:00 am - 12:15 pm</item>
+	 	</string-array>
+	 	<string-array name="term">
+	 	    <item>Select Term</item>
+	 	    <item>Fall</item>
+	 	    <item>Spring</item>
+	 	    <item>Summer</item>
+	 	</string-array>
+</resources>

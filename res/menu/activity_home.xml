@@ -1,0 +1,30 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/menuSyncNowId"
+        android:showAsAction="ifRoom"
+        android:title="@string/menu_sync"
+        android:onClick="update"
+        android:icon="@drawable/sync_icon"
+       	/>
+    <item
+        android:id="@+id/menuSyncId"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:onClick="updateDialog"
+        android:title="@string/menu_syncFreq"/>
+    <item
+        android:id="@+id/menuNotifyId"
+        android:orderInCategory="101"
+        android:showAsAction="never"
+        android:onClick="notifyDialog"
+        android:title="@string/menu_notify"/>
+    <item
+        android:id="@+id/menuClearAllId"
+        android:orderInCategory="102"
+        android:showAsAction="never"
+        android:onClick="clearAllAlerts"
+        android:title="@string/menu_clearAll"/>
+    
+
+</menu>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="alertSet">Alert\nSettings</string>
+    <string name="app_name">ClassAlert</string>
+    <string name="campusD">DesPlaines</string>
+    <string name="campusS">Skokie</string>
+    <string name="cancel">Cancel</string>
+    <string name="classAlert">ClassALERT</string>
+    <string name="courseName">Introduction to Education</string>
+    <string name="crnFormat">Incorrect format (i.e 12345)</string>
+    <string name="crnMultiFormat">Incorrect format (i.e 12345,67890,12345)</string>
+    <string name="exceed">Registration\nReaches</string>
+    <string name="interval">Once every:</string>
+    <string name="interval1">15min</string>
+    <string name="interval2">1hr</string>
+    <string name="interval3">3hr</string>
+    <string name="interval4">24hr</string>
+    <string name="logo">Oakton Logo</string>
+    <string name="manually">Manually</string>
+    <string name="menu_notify">Notification</string>
+    <string name="menu_clearAll">Clear All Alerts</string>
+    <string name="menu_settings">Settings</string>
+    <string name="menu_syncFreq">Update Frequency</string>
+    <string name="menu_sync">Sync Now</string>
+    <string name="notify">Pop-up Notification</string>
+    <string name="oakton">Oakton\n  ClassALERT</string>
+    <string name="ok">OK</string>
+    <string name="openSeat">The First Seat Opens</string>
+    <string name="remove">Remove</string>
+    <string name="save">Save</string>
+    <string name="search">Enter Search</string>
+    <string name="searchHint">Enter crn# to add alert</string>
+	<string name="settings">Settings33</string>
+	<string name="term">Select Term</string>
+</resources>

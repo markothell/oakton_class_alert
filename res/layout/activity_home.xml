@@ -1,0 +1,73 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".Home"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#ffffff">
+	
+    <!-- Search Bar -->
+    <!-- <LinearLayout
+        android:layout_width="match_parent"
+    	android:layout_height="wrap_content">-->
+    	
+    <RelativeLayout 
+        android:layout_width="match_parent"
+    	android:layout_height="wrap_content"
+    	android:focusableInTouchMode="true"
+    	android:background="#677886"
+    	android:paddingTop="10dp"
+    	android:paddingBottom="10dp"
+    	android:paddingLeft="15dp"
+    	android:paddingRight="15dp">
+    	 
+    	<ImageButton
+            android:layout_width="wrap_content"
+    		android:layout_height="wrap_content"
+    		android:layout_alignParentLeft="true"
+        	android:layout_alignParentTop="true"
+    		android:background="@null"
+    		android:contentDescription="@string/search"
+    		android:id="@+id/searchButtonId"
+            android:src="@drawable/search_butt_small"/> 
+        <EditText
+            android:layout_width="wrap_content"
+    		android:layout_height="wrap_content"
+    		android:layout_toRightOf="@id/searchButtonId"
+    		android:layout_alignTop="@id/searchButtonId"
+    		android:layout_alignBottom="@id/searchButtonId"
+    		android:layout_marginRight="8dp"
+            android:background="@android:color/white"
+            android:hint="@string/searchHint"
+            android:paddingLeft="10dp"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:paddingRight="28dp"
+            android:textSize="15sp"
+            android:singleLine="true"
+            android:imeOptions="actionGo"
+            android:id="@+id/searchEditTextId"/> 
+        <Spinner
+    	    android:layout_width="wrap_content"
+    		android:layout_height="wrap_content"
+    		android:layout_marginLeft="10dp"
+    		android:id="@+id/spinnerId"
+    		android:layout_alignParentRight="true"
+    		android:layout_alignParentTop="true"
+    		android:background="@drawable/spinner_pic_w"
+    		android:prompt="@string/term"/>
+    </RelativeLayout>
+            
+                 
+    
+    <ScrollView android:id="@+id/activityHomeScrollViewId"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+        <LinearLayout android:id="@+id/activityHomeLinearLayout"
+    		android:layout_width="match_parent"
+    		android:layout_height="match_parent"
+    		android:orientation="vertical"
+    		android:background="@drawable/oakton_leaf_bg" >
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

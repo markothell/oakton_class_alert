@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/optionBoxId"
+    android:padding="10dp"
+    android:orientation="vertical">
+	<FrameLayout 
+	    android:layout_width="wrap_content"
+    	android:layout_height="wrap_content">
+    	<RadioGroup
+    	    android:id="@+id/radioGroup"
+    	    android:layout_width="wrap_content"
+    		android:layout_height="wrap_content"
+    		android:orientation="vertical"
+    		android:layout_gravity="top|left" >
+    	<RadioButton
+        	android:id="@+id/optionRadio1"
+        	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:textSize="20sp"
+        	android:paddingBottom="10dp"
+        	android:text="@string/openSeat" />
+    	<RadioButton
+        	android:id="@+id/optionRadio2"
+      		android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:textSize="20sp"
+        	android:text="@string/exceed" />
+    	</RadioGroup>
+    	<TextView 
+    	    android:id="@+id/seekBarValue"
+    	    android:textSize="20sp"
+    	    android:layout_width="match_parent"
+    		android:layout_height="match_parent"
+    		android:layout_gravity="bottom|right"
+    		android:layout_marginRight="20dp"
+    		android:layout_marginBottom="10dp"
+    		android:background="#5eb0da"/>
+	</FrameLayout>
+    	
+    <SeekBar 
+   		android:id="@+id/seekBarId"
+   		android:layout_width="match_parent"
+       	android:layout_height="wrap_content"
+       	android:layout_margin="10dp"/>
+</LinearLayout>
